@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Nova+Square&family=Orbitron&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Abhaya Libre', cursive;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+
+.CC{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(216, 11, 79);
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.kj{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.logo{
+    color: #ffffff;
+    margin-left: 10px;
+    float: left;
+}
+
+.imgprinc{
+    height: 300px;
+    width: 100%;
+    background:url(./images/5846436.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mais{ 
+    font-size: 20px;
+    text-align: center;
+}
+
+.textin{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.dd{
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-bottom: 20px;
+}
+
+section{
+    background: white;
+}
+
+.how{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+}
+
+.cartões{
+    display: flex;
+    margin: 10px;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+
+.ico{
+    margin: 5px;
+    text-align: center;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-align: center;
+}
+
+p{
+    font-size: 14px;
+}
+
+
+.vov{
+    color: rgb(0, 0, 0);
+    margin-top: 2px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.esq{
+    width: 52.5%;
+    height: 252px;
+    float: left;
+    background: url(./images/image\ 14.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.dir{
+    float: right;
+    background: url(./images/image\ 10.png);
+    width: 47.5%;
+    height: 252px;
+    background-repeat: no-repeat;
+}
+
+h2{
+    margin-left: 40%;
+}
+
+#chora{
+    font-size: 12px;
+    margin-left: 40%;
+    margin-right: 10px;
+}
+
+.ak{
+    cursor: pointer;
+    background-color: #498F37;
+    margin-left: 60%;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 569px){
+    
+    .ak{
+        font-size: 10px;
+    }
+
+}
